@@ -25,9 +25,16 @@ header {
 section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
 }
 
 section div.split {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+section div.slides {
+  width: 500px;
+  height: 800px;
 }
