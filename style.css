@@ -1,0 +1,33 @@
+@font-face {
+  font-family: PT Root;
+  src: url(assets/ptroot.woff2);
+}
+
+* {
+  font-family: PT Root, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+
+  background-color: black;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section div.split {
+  display: flex;
+  align-items: center;
+}
